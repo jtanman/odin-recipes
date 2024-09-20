@@ -1,0 +1,60 @@
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    color: green;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li{
+    /*
+     * 
+     * This CSS file contains styles for the recipe pages.
+     * 
+     * The `list-style-type` property specifies the type of list-item marker for ordered lists (<ol>) and unordered lists (<ul>).
+     * 
+     * Possible values for `list-style-type` include:
+     * - `disc`: A filled circle (default for unordered lists).
+     * - `circle`: An unfilled circle.
+     * - `square`: A filled square.
+     * - `decimal`: Numbers (default for ordered lists).
+     * - `decimal-leading-zero`: Numbers padded by initial zeros (01, 02, 03, etc.).
+     * - `lower-roman`: Lowercase Roman numerals (i, ii, iii, iv, etc.).
+     * - `upper-roman`: Uppercase Roman numerals (I, II, III, IV, etc.).
+     * - `lower-alpha`: Lowercase alphabetical characters (a, b, c, d, etc.).
+     * - `upper-alpha`: Uppercase alphabetical characters (A, B, C, D, etc.).
+     * - `none`: No marker is shown.
+     */
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+}
+
+ol li {
+    list-style-type: decimal;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
